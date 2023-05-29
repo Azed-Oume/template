@@ -1,0 +1,67 @@
+
+.section__image__fm{
+    background-image: url(../images/fond_marron.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    color: brown;
+    font-size: 2rem;
+}
+.section__image__fm__text{
+    font-size: 1.2rem;
+}
+.section__article__pre{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.section__article__preambule{
+    display: flex;
+    flex-direction: column;
+    
+    width:90%;
+    height: auto;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-image: url(../images/fond_vet.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid gray 2px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+
+}
+.section{
+    width: 100%;
+    margin: 1rem auto;
+}
+.sirene__bleu{
+    border: solid greenyellow 5px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 1rem 15rem 1rem 15rem;
+}
+
+@media screen and (max-width:1023px) {
+    .sirene__bleu{
+    border: solid greenyellow 5px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 1rem 6rem 1rem 6rem;
+}
+}
+
+@media screen and (max-width:1024px) and (max-width:1400px) {
+    .sirene__bleu{
+    border: solid greenyellow 5px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 1rem 7rem 1rem 7rem;
+}
+}

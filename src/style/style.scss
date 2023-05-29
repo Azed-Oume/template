@@ -1,0 +1,17 @@
+@use './reset';
+
+@use './footer';
+@use './header';
+@use './main-section';
+@use './section-article';
+@use './aside';
+@use './mediaqueries';
+@use './form';
+@use './mon-compte';
+@use './mixin';
+@use './caroussel';
+@use './newsletter';
+
+.body{
+    background-color: aliceblue;
+}

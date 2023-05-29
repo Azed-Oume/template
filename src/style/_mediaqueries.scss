@@ -1,0 +1,166 @@
+//.........................DEVELOPPEMENT EN FIRST-MOBILE........................
+
+// gestion des section article pre et preambule
+@media screen and (min-width: 768px) {
+    .section__article__pre{
+        display: flex;
+        flex-direction: row;
+    }
+    .section__article__preambule{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 30%;
+    }
+    
+}
+
+
+// gestion des article écrans intermediares
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .section__article{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+}
+
+// gestion des article écrans medium...........................................................................................................................................
+@media screen and (min-width: 1024px) and (max-width:1440px){
+    .section__article{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+}
+
+// gestion des article ecrans large...........................................................................................................................................
+@media screen and (min-width: 1441px){
+    .section__article{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+}
+
+// gestion des écrans intrmédiaires ..............................................................................................................................
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .section__aside__espaces-vert{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 90%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .section__aside__montagne{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 90%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .section__aside__mer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 90%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .formulaire__encadrer{
+        width: 70%;
+        margin: 1rem auto;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: blue;
+        }
+}
+
+
+
+// gestion des écrans medium ....................................................................................................................................
+@media screen and (min-width: 1024px) and (max-width:1440px){
+    .section__aside__espaces-vert{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 30%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .section__aside__montagne{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 30%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .section__aside__mer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 30%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .formulaire__encadrer{
+        width: 60%;
+        margin: 1rem auto;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: blue;
+    }
+}
+
+
+
+// gestion des écrans larges......................................................................................................................................
+@media screen and (min-width: 1441px){
+    .section__aside__espaces-vert{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        width: 33%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .section__aside__montagne{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        width: 33%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .section__aside__mer{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        width: 33%;
+        margin: 0rem auto;
+        border-bottom: solid gray 3px;
+    }
+    .formulaire__encadrer{
+        width: 50%;
+        margin: 1rem auto;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: blue;
+    }
+}
+
+
+
+
+
+
+
